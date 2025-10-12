@@ -12,3 +12,6 @@ Non-volatile external flash memory located on the DE2-115 board for storing user
 Two hard-vector interrupt interfaces (fixed routine addresses) implemented for UART and timer modules.
 
 A lightweight Python utility for assembling mnemonics into machine code and programming the device via UART.
+
+<img width="1264" height="670" alt="image" src="https://github.com/user-attachments/assets/4acd00a6-4489-4d22-b6ff-1a98865a6585" />
+

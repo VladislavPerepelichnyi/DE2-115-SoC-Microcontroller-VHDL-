@@ -1,0 +1,123 @@
+LDR 0x00 0x00
+LDR 0x01 0x01
+LDR 0x02 255
+LDR 0x03 1
+--
+LDR 104 104 --  string 
+LDR 101 101 
+LDR 108 108
+LDR 111 111
+LDR 10 10 
+LDR 9 13
+
+-- 
+LDIR 0xFE -- 0b1111 1110
+ 
+-- timer
+LCDR 0xFF
+LCTR 0x81
+--Int
+LISR 0xFF
+
+MAIN_LOOP:
+
+INTA 
+AND 0x01
+WFR 0x05 
+JMP 0x05  POOLING
+--------
+
+--------
+JMP 0x01 MAIN_LOOP
+POOLING:
+INTA 
+AND 0x01 
+WFR 0x05 
+JMP 0x05 POOLING 
+RFR 10
+ATTX
+JML 0x01 delay_function
+RFR 104
+ATTX
+JML 0x01 delay_function
+RFR 101
+ATTX
+JML 0x01 delay_function
+RFR 108
+ATTX
+JML 0x01 delay_function
+RFR 108
+ATTX
+JML 0x01 delay_function
+RFR 111
+ATTX
+JML 0x01 delay_function
+RFR 9
+ATTX
+JML 0x01 delay_function
+
+JMP 0x01 MAIN_LOOP  
+
+
+
+
+ISR_T_BEGIN:
+WFR 0xF0
+RFR 0xA0
+ 
+XOR 0x02 --255
+WFR 0xA0 
+OUTP 
+RFR 0xF0
+RAR
+ISR_T_END:
+
+ISR_U_BEGIN:
+WFR 0xF0
+RXTA 
+WFR 0xA0 -- output
+RFR 0xF0
+RAR
+ISR_U_END:
+
+
+
+
+
+
+
+
+
+
+
+
+
+delay_function:
+RFR 0x03
+WFR 0x05 -- i = 255
+RFR 0x02
+WFR 0x06 -- j = 255
+RFR 0x02
+WFR 0x07 -- k = 255
+
+i_loop:
+RFR 0x05
+DEC
+WFR 0x05
+
+j_loop:
+RFR 0x06
+DEC
+WFR 0x06
+
+k_loop:
+RFR 0x07
+DEC
+WFR 0x07
+
+JMP 0x07 k_loop
+
+JMP 0x06 j_loop
+
+JMP 0x05 i_loop
+RAR

@@ -30,7 +30,8 @@ The SoC consists of several main blocks:
 
 
 **Timer structure :**
-<img width="2029" height="1016" alt="CPU" src="https://github.com/user-attachments/assets/738dc753-2244-4725-bdc6-42467deb4fd5" />
+<img width="973" height="640" alt="TIMER (1)" src="https://github.com/user-attachments/assets/f69549f4-a68f-4cfd-a241-96b0095f393d" />
+
 
 
 **UART structure :**

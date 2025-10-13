@@ -59,7 +59,7 @@ The SoC consists of several main blocks:
 
 ### Programmer flowchart :
 
-<img width="329" height="545" alt="flowchart Programmer" src="https://github.com/user-attachments/assets/6a7be092-5bd0-4011-a91d-4426ce7a85b1" />
+<img width="274" height="389" alt="flowchart Programmer" src="https://github.com/user-attachments/assets/6a7be092-5bd0-4011-a91d-4426ce7a85b1" />
 
 
 

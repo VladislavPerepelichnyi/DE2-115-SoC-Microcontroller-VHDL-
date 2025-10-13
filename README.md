@@ -66,15 +66,18 @@ FPGA board: DE2-115
 UART-USB cable (RS232): connected to PC serial port and de2-115.
 
 **2. FPGA Synthesis**
+
 Download VHDL_RTL.zip and unzip it.
-Press on "microcontroller_noama_vladona" (QPF file)
-Compile and program the FPGA
+
+Press on "microcontroller_noama_vladona" (QPF file).
+
+Compile and program the FPGA.
 
 **3. Python programmer-utility**
 Download the "softwareutility" directory.
 Install the necessary libraries (all libraries are in main.py).
 Paste the example program into the "ASSEMBLER" tab.
-Click "Compiler," then "Save." The utility saves two types of files: the first is a text string with ones and zeros (not related to programming), and the second is a HEX file (related to programming). Then go to the "PROGRAMMER" tab and press **sw(17)** on the FPGA board (to enter programming mode). Then click "On."
+Click "Compiler," then "Save." The utility saves two types of files: the first is a text string with ones and zeros (not related to programming), and the second is a HEX file (related to programming). Then go to the "PROGRAMMER" tab and press **sw(17)** on the FPGA board (to enter programming mode). Then click "Select HEX file"
 
 <img width="1509" height="983" alt="image" src="https://github.com/user-attachments/assets/ef98caee-1a88-46c0-a869-d153011722ff" />
 
@@ -86,7 +89,9 @@ This program demonstrates the use of all the devices. It uses two types of inter
 Below are assembly mnemonics for writing programs, along with a brief explanation of the peripherals.
 
 The user can also leave comments using "--" (as in VHDL).
+
 **Assembler list**
+
 <img width="599" height="722" alt="image" src="https://github.com/user-attachments/assets/9aa946b2-6c6d-4e8d-8572-b78f6bba18bb" />
 
 <img width="584" height="367" alt="image" src="https://github.com/user-attachments/assets/f1181c54-8ad5-432d-8a5a-d2b83849b518" />

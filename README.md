@@ -51,15 +51,15 @@ The SoC consists of several main blocks:
 
 **RAM buffer map :**
 
-<img width="676" height="708" alt="ROM map" src="https://github.com/user-attachments/assets/077e6d5d-ae2c-4ac7-8f69-8cf5346f7e87" />
+<img width="338" height="354" alt="ROM map" src="https://github.com/user-attachments/assets/077e6d5d-ae2c-4ac7-8f69-8cf5346f7e87" />
 
 **Programmer structure :**
 
-<img width="1620" height="375" alt="Programmer" src="https://github.com/user-attachments/assets/627b8c6a-f532-43ce-a682-2d5658a15e69" />
+<img width="810" height="187" alt="Programmer" src="https://github.com/user-attachments/assets/627b8c6a-f532-43ce-a682-2d5658a15e69" />
 
 **Programmer flowchart :**
 
-<img width="658" height="1090" alt="flowchart Programmer" src="https://github.com/user-attachments/assets/6a7be092-5bd0-4011-a91d-4426ce7a85b1" />
+<img width="329" height="545" alt="flowchart Programmer" src="https://github.com/user-attachments/assets/6a7be092-5bd0-4011-a91d-4426ce7a85b1" />
 
 
 

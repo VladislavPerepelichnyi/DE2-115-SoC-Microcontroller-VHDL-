@@ -110,6 +110,25 @@ Comments can be inserted using `--` (as in VHDL).
 <img width="584" height="367" alt="image" src="https://github.com/user-attachments/assets/f1181c54-8ad5-432d-8a5a-d2b83849b518" />
 
 ### Timep programming : 
+The timer is configured through two registers: LCTR (Load Control Timer Register) and LCDR (Load Compare Data Register).
+Since the microcontroller operates on an 8-bit architecture, the lower 8 bits of each register are set to zero.
+
+The most significant bit (MSB) of the CTR register acts as the interrupt enable bit.
+
+The remaining bits define the clock frequency division factor.
+
+The 8th MSB of the CDR register specifies the comparison value for the timer counter.
+
+The timer interrupt triggers when the counter matches this value.
+Formulas for calculating the correct values are provided below.
+
+To define an Interrupt Service Routine (ISR), you must mark its boundaries using:
+<pre> ``` ISR_T_BEGIN:
+    -- your timer interrupt code here
+          ISR_T_END:
+ ``` </pre>
+<img width="843" height="330" alt="image" src="https://github.com/user-attachments/assets/61811d89-534c-4692-bb2b-4c9c28989ab0" />
+
 
 <img width="350" height="54" alt="image" src="https://github.com/user-attachments/assets/b9a5dea8-f103-4563-af3d-82683521d216" />
 

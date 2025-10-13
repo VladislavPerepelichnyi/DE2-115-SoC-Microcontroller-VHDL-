@@ -2,7 +2,7 @@
 FPGA SoC microcontroller with external flash and UART programming GUI
 
 This repository presents a soft System-on-Chip (SoC) microcontroller implemented in **VHDL** on the **DE2-115 FPGA board**.  
-The project includes a RISC-like CPU, memory subsystem, and peripheral interfaces, along with a **Python-based programming utility**.
+The project includes a  CPU, memory subsystem, and peripheral interfaces, along with a **Python-based programming utility**.
 
 ## Overview
 

@@ -47,7 +47,7 @@ The SoC consists of several main blocks:
 
 ### Loader structure :
 
-<img width="510" height="553" alt="BOOTLOADER" src="https://github.com/user-attachments/assets/5b7f5635-7d4f-462e-9c4f-6520dad870f7" />
+<img width="364" height="395" alt="BOOTLOADER" src="https://github.com/user-attachments/assets/5b7f5635-7d4f-462e-9c4f-6520dad870f7" />
 
  ### RAM buffer map :
 

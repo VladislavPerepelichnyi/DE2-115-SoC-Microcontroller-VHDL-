@@ -98,7 +98,7 @@ Comments can be inserted using `--` (as in VHDL).
 
 
 
-**Assembler list**
+## Assembler list
 
 <img width="599" height="722" alt="image" src="https://github.com/user-attachments/assets/9aa946b2-6c6d-4e8d-8572-b78f6bba18bb" />
 

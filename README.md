@@ -59,41 +59,54 @@ The SoC consists of several main blocks:
 
 
 ## How to Build and Run
-**1. Hardware Setup**
+### 1. Hardware Setup
+- **FPGA board:** DE2-115  
+- **UART-USB cable (RS-232):** connect between PC serial port and DE2-115 UART port  
 
-FPGA board: DE2-115
+### 2. FPGA Synthesis
+1. Download and unzip `VHDL_RTL.zip`.  
+2. Open the `microcontroller_noama_vladona.qpf` project file in Quartus.  
+3. Compile and program the FPGA.  
 
-UART-USB cable (RS232): connected to PC serial port and de2-115.
+### 3. Python Programming Utility
+1. Download the `software_utility` directory.  
+2. Install required Python libraries (listed in `main.py`).  
+3. Open the GUI tool:  
+   - Paste your assembly program into the **ASSEMBLER** tab.  
+   - Click **Compile**, then **Save**.  
+     The tool generates:
+     - A binary text representation (for reference)  
+     - A **HEX file** for programming  
+   - Switch the FPGA into programming mode by pressing **SW(17)** on the board.  
+   - Go to the **PROGRAMMER** tab and click **Select HEX file** to begin programming.
 
-**2. FPGA Synthesis**
+## Example Application
+The provided demonstration program uses both UART and timer interrupts.  
+It receives a character from the PC terminal (e.g., PuTTY) and blinks the corresponding pattern on **7 red LEDs**.  
+When **SW(1)** is pressed and released, the microcontroller transmits the word **“hello”** via UART.
 
-Download VHDL_RTL.zip and unzip it.
+- **Timer interrupt:** drives LED blinking  
+- **UART receiver interrupt:** updates LED pattern  
+- **SW(1) polling:** detects button presses in software  
 
-Press on "microcontroller_noama_vladona" (QPF file).
-
-Compile and program the FPGA.
-
-**3. Python programmer-utility**
-Download the "softwareutility" directory.
-Install the necessary libraries (all libraries are in main.py).
-Paste the example program into the "ASSEMBLER" tab.
-Click "Compiler," then "Save." The utility saves two types of files: the first is a text string with ones and zeros (not related to programming), and the second is a HEX file (related to programming). Then go to the "PROGRAMMER" tab and press **sw(17)** on the FPGA board (to enter programming mode). Then click "Select HEX file"
+Comments can be inserted using `--` (as in VHDL).
 
 <img width="1509" height="983" alt="image" src="https://github.com/user-attachments/assets/ef98caee-1a88-46c0-a869-d153011722ff" />
 
 <img width="1488" height="831" alt="image" src="https://github.com/user-attachments/assets/a532b1ee-3f47-4ce6-b921-864bb897ae76" />
 
 
-This program demonstrates the use of all the devices. It uses two types of interrupts (received from the UART receiver and a timer triggered by a comparison), and blinks the resulting character on 7 red LEDs. The character is sent from the PC via UART (use an external terminal such as PuTTY). When SW(1) is raised and then released, the microcontroller transmits the word "hello" to the terminal. Note that blinking is driven by a timer, the combination of LEDs is driven by a receiver interrupt, and polling for SW(1) presses is done by pooling.
 
-Below are assembly mnemonics for writing programs, along with a brief explanation of the peripherals.
-
-The user can also leave comments using "--" (as in VHDL).
 
 **Assembler list**
 
 <img width="599" height="722" alt="image" src="https://github.com/user-attachments/assets/9aa946b2-6c6d-4e8d-8572-b78f6bba18bb" />
 
 <img width="584" height="367" alt="image" src="https://github.com/user-attachments/assets/f1181c54-8ad5-432d-8a5a-d2b83849b518" />
+
+## Acknowledgments
+Developed by **Noam Alon** and **Vladislav Perepelichnyi**  
+Faculty of Electrical Engineering,  
+**Holon Institute of Technology, Israel**.
  
 

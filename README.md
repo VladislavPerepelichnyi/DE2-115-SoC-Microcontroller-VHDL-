@@ -20,6 +20,7 @@ The SoC consists of several main blocks:
 - **Programming Interface:** UART-based flash programmer using Python GUI
   
 The top level : 
+
 <img width="740" height="410" alt="TL" src="https://github.com/user-attachments/assets/c9d17237-5f44-46d2-bb5f-e5b77c05f16b" />
 
 

@@ -26,7 +26,8 @@ The SoC consists of several main blocks:
 
 
 **CPU structure :** 
-<img width="2476" height="1498" alt="CPU" src="https://github.com/user-attachments/assets/43595e75-6bfd-41ba-b5c0-f63ac5b55da0" />
+<img width="2029" height="1016" alt="CPU" src="https://github.com/user-attachments/assets/674de43e-146b-4163-a788-99e2dc7276bd" />
+
 
 **Timer structure :**
 <img width="1357" height="858" alt="TIMER" src="https://github.com/user-attachments/assets/fe7be93d-4269-4d7f-8fb2-a15c9c8029ff" />

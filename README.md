@@ -32,7 +32,8 @@ The SoC consists of several main blocks:
 
 **Timer structure :**
 
-<img width="973" height="640" alt="TIMER (1)" src="https://github.com/user-attachments/assets/f69549f4-a68f-4cfd-a241-96b0095f393d" />
+<img width="500" height="329" alt="TIMER (1)" src="https://github.com/user-attachments/assets/d1f6915f-d522-46d8-b54e-0ef4184e9ad2" />
+
 
 
 

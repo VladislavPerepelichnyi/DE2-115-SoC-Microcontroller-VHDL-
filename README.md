@@ -134,6 +134,12 @@ To define an Interrupt Service Routine (ISR), you must mark its boundaries using
 
 ### UART programming :
 
+RXTA - Load accumulator from receiver
+
+ATTX - Accumulator to transmitter
+
+TXTR - Tx ready to ram
+
 ## Acknowledgments
 Developed by **Noam Alon** and **Vladislav Perepelichnyi**  
 Faculty of Electrical Engineering,  

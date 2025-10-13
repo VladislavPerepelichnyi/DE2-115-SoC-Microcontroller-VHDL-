@@ -74,9 +74,10 @@ The SoC consists of several main blocks:
 3. Compile and program the FPGA.  
 
 ### 3. Python Programming Utility
-1. Download the `software_utility` directory.  
-2. Install required Python libraries (listed in `main.py`).  
-3. Open the GUI tool:  
+1. Download the `software_utility` directory.
+2. Set the required COM port.
+3. Install required Python libraries (listed in `main.py`).  
+4. Open the GUI tool:  
    - Paste your assembly program into the **ASSEMBLER** tab.  
    - Click **Compile**, then **Save**.  
      The tool generates:
@@ -84,6 +85,7 @@ The SoC consists of several main blocks:
      - A **HEX file** for programming  
    - Switch the FPGA into programming mode by pressing **SW(17)** on the board.  
    - Go to the **PROGRAMMER** tab and click **Select HEX file** to begin programming.
+     
 
 ## Example Application
 The provided demonstration program uses both UART and timer interrupts.  

@@ -33,31 +33,31 @@ The SoC consists of several main blocks:
 
 
 
-**Timer structure :**
+### Timer structure :
 
 <img width="500" height="329" alt="TIMER (1)" src="https://github.com/user-attachments/assets/d1f6915f-d522-46d8-b54e-0ef4184e9ad2" />
 
 
 
 
-**UART structure :**
+### UART structure :
 
 <img width="493" height="325" alt="UART" src="https://github.com/user-attachments/assets/dc6e1665-0bc9-4890-a8cd-d5f5a2f42a67" />
 
 
-**Loader structure :**
+### Loader structure :
 
 <img width="510" height="553" alt="BOOTLOADER" src="https://github.com/user-attachments/assets/5b7f5635-7d4f-462e-9c4f-6520dad870f7" />
 
-**RAM buffer map :**
+ ### RAM buffer map :
 
 <img width="338" height="354" alt="ROM map" src="https://github.com/user-attachments/assets/077e6d5d-ae2c-4ac7-8f69-8cf5346f7e87" />
 
-**Programmer structure :**
+### Programmer structure :
 
 <img width="810" height="187" alt="Programmer" src="https://github.com/user-attachments/assets/627b8c6a-f532-43ce-a682-2d5658a15e69" />
 
-**Programmer flowchart :**
+### Programmer flowchart :
 
 <img width="329" height="545" alt="flowchart Programmer" src="https://github.com/user-attachments/assets/6a7be092-5bd0-4011-a91d-4426ce7a85b1" />
 

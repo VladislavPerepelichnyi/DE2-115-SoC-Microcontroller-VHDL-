@@ -26,9 +26,10 @@ The SoC consists of several main blocks:
 
 
 
-**CPU structure :** 
+## CPU structure : 
 
-<img width="1015" height="508" alt="CPU" src="https://github.com/user-attachments/assets/1799b6f0-bc49-464c-bb1c-5045d732a9cf" />
+<img width="1015" height="508" alt="CPU" src="https://github.com/user-attachments/assets/6332a42e-5ceb-4832-8905-f8f7d9815579" />
+
 
 
 

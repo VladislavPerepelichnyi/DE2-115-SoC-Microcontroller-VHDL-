@@ -133,11 +133,9 @@ To define an Interrupt Service Routine (ISR), you must mark its boundaries using
 <img width="350" height="54" alt="image" src="https://github.com/user-attachments/assets/b9a5dea8-f103-4563-af3d-82683521d216" />
 
 ### UART programming :
-
+UART programming is carried out using 3 commands:
 RXTA - Load accumulator from receiver
-
 ATTX - Accumulator to transmitter
-
 TXTR - Tx ready to ram
 
 ## Acknowledgments

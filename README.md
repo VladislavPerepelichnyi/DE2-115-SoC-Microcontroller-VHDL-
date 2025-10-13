@@ -19,9 +19,10 @@ The SoC consists of several main blocks:
 - **Bus System:** Simple address decoding and control logic  
 - **Programming Interface:** UART(115200 8N1)-based flash programmer using Python GUI
   
-**The top level :** 
+### The top level :
 
-<img width="740" height="410" alt="TL" src="https://github.com/user-attachments/assets/c9d17237-5f44-46d2-bb5f-e5b77c05f16b" />
+<img width="370" height="205" alt="TL" src="https://github.com/user-attachments/assets/14fbd6f2-7f3e-4e6d-aa51-9bdf3deac421" />
+
 
 
 

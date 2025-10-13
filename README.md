@@ -17,7 +17,7 @@ The SoC consists of several main blocks:
 - **Memory System:** External flash memory for program storage, internal RAM - buffer and file register for data  
 - **Peripherals:** UART(115200 8N1) interface and hardware timer  
 - **Bus System:** Simple address decoding and control logic  
-- **Programming Interface:** UART((115200 8N1))-based flash programmer using Python GUI
+- **Programming Interface:** UART(115200 8N1)-based flash programmer using Python GUI
   
 **The top level :** 
 

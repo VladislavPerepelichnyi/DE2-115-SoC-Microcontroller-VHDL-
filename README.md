@@ -28,7 +28,8 @@ The SoC consists of several main blocks:
 
 **CPU structure :** 
 
-<img width="2029" height="1016" alt="CPU" src="https://github.com/user-attachments/assets/674de43e-146b-4163-a788-99e2dc7276bd" />
+<img width="1015" height="508" alt="CPU" src="https://github.com/user-attachments/assets/1799b6f0-bc49-464c-bb1c-5045d732a9cf" />
+
 
 
 **Timer structure :**
@@ -40,7 +41,7 @@ The SoC consists of several main blocks:
 
 **UART structure :**
 
-<img width="1971" height="1300" alt="UART" src="https://github.com/user-attachments/assets/ce17cc07-249b-4d54-b40d-746206d5e0c4" />
+<img width="985" height="650" alt="UART" src="https://github.com/user-attachments/assets/ce17cc07-249b-4d54-b40d-746206d5e0c4" />
 
 **Loader structure :**
 

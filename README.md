@@ -125,7 +125,7 @@ Formulas for calculating the correct values are provided below.
 To define an Interrupt Service Routine (ISR), you must mark its boundaries using:
 <pre> ISR_T_BEGIN:
         -- your timer interrupt code here
-ISR_T_END:</pre>
+ ISR_T_END:</pre>
 
 <img width="350" height="137" alt="image" src="https://github.com/user-attachments/assets/61811d89-534c-4692-bb2b-4c9c28989ab0" />
 

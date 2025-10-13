@@ -147,11 +147,18 @@ TXTR - Tx ready to ram
  ISR_U_END:</pre>
 
  ### GPIO programming :
+ 
  LDIR - load direction. Required to determine input/output. 0 - input, 1 - output.
- OUTP - Output character from accumulator
- INTA - Get value from input to accumulator
+ 
+ OUTP - Output character from accumulator.
+ 
+ INTA - Get value from input to accumulator.
 
  sw(7 downto 0) is used as an input and the gpio state can be seen on ledr(7 downto 0).
+ ### ISR
+To globally enable interrupts, use the LISR (Load Interrupt Service Register) command. You must set the Most Significant Bit (MSB) of the data loaded into this register to '1'.
+
+To return from an ISR or a subroutine, use the RAR (Return Address Register) command. This instruction pops the return address off the hardware 64-byte stack (the program counter value saved upon interrupt or jump) and loads it into the Program Counter. This command is essential after an interrupt, and is also useful following a JML (Jump with Link) command.
 
 ## Acknowledgments
 Developed by **Noam Alon** and **Vladislav Perepelichnyi**  

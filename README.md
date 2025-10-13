@@ -133,10 +133,25 @@ To define an Interrupt Service Routine (ISR), you must mark its boundaries using
 <img width="350" height="54" alt="image" src="https://github.com/user-attachments/assets/b9a5dea8-f103-4563-af3d-82683521d216" />
 
 ### UART programming :
-UART programming is carried out using 3 commands:
+
+UART(115200 8N1) programming is carried out using 3 commands:
+
 RXTA - Load accumulator from receiver
+
 ATTX - Accumulator to transmitter
+
 TXTR - Tx ready to ram
+
+<pre> ISR_U_BEGIN:
+        -- your UART interrupt code here
+ ISR_U_END:</pre>
+
+ ### GPIO programming :
+ LDIR - load direction. Required to determine input/output. 0 - input, 1 - output.
+ OUTP - Output character from accumulator
+ INTA - Get value from input to accumulator
+
+ sw(7 downto 0) is used as an input and the gpio state can be seen on ledr(7 downto 0).
 
 ## Acknowledgments
 Developed by **Noam Alon** and **Vladislav Perepelichnyi**  

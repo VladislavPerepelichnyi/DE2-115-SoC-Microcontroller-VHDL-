@@ -96,9 +96,9 @@ When **SW(1)** is pressed and released, the microcontroller transmits the word *
 
 Comments can be inserted using `--` (as in VHDL).
 
-<img width="754" height="491" alt="image" src="https://github.com/user-attachments/assets/ef98caee-1a88-46c0-a869-d153011722ff" />
+<img width="538" height="350" alt="image" src="https://github.com/user-attachments/assets/ef98caee-1a88-46c0-a869-d153011722ff" />
 
-<img width="744" height="415" alt="image" src="https://github.com/user-attachments/assets/a532b1ee-3f47-4ce6-b921-864bb897ae76" />
+<img width="531" height="296" alt="image" src="https://github.com/user-attachments/assets/a532b1ee-3f47-4ce6-b921-864bb897ae76" />
 
 
 

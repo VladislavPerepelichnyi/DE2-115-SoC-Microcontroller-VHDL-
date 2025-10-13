@@ -123,15 +123,16 @@ The timer interrupt triggers when the counter matches this value.
 Formulas for calculating the correct values are provided below.
 
 To define an Interrupt Service Routine (ISR), you must mark its boundaries using:
-<pre> ``` ISR_T_BEGIN:
-    -- your timer interrupt code here
-          ISR_T_END:
- ``` </pre>
-<img width="843" height="330" alt="image" src="https://github.com/user-attachments/assets/61811d89-534c-4692-bb2b-4c9c28989ab0" />
+<pre> ISR_T_BEGIN:
+        -- your timer interrupt code here
+      ISR_T_END:
+ </pre>
+<img width="350" height="137" alt="image" src="https://github.com/user-attachments/assets/61811d89-534c-4692-bb2b-4c9c28989ab0" />
 
 
 <img width="350" height="54" alt="image" src="https://github.com/user-attachments/assets/b9a5dea8-f103-4563-af3d-82683521d216" />
 
+### UART programming :
 
 ## Acknowledgments
 Developed by **Noam Alon** and **Vladislav Perepelichnyi**  

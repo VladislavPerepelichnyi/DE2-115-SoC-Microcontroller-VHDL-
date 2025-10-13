@@ -18,11 +18,15 @@ The SoC consists of several main blocks:
 - **Peripherals:** UART interface and hardware timer  
 - **Bus System:** Simple address decoding and control logic  
 - **Programming Interface:** UART-based flash programmer using Python GUI
+The top level : 
+<img width="740" height="410" alt="TL" src="https://github.com/user-attachments/assets/c9d17237-5f44-46d2-bb5f-e5b77c05f16b" />
 
 
 
+CPU structure
+<img width="1264" height="670" alt="image" src="https://github.com/user-attachments/assets/4acd00a6-4489-4d22-b6ff-1a98865a6585" />\
+
+## Get started 
 <img width="1509" height="983" alt="image" src="https://github.com/user-attachments/assets/ef98caee-1a88-46c0-a869-d153011722ff" />
-## CPU structure
-<img width="1264" height="670" alt="image" src="https://github.com/user-attachments/assets/4acd00a6-4489-4d22-b6ff-1a98865a6585" />
  
 

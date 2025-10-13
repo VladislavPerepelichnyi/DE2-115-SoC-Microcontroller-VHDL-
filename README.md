@@ -35,7 +35,8 @@ The SoC consists of several main blocks:
 
 
 **UART structure :**
-<img width="2306" height="1521" alt="UART" src="https://github.com/user-attachments/assets/cf3d3582-029c-4604-90c6-faf0f8ca30c3" />
+<img width="1971" height="1300" alt="UART" src="https://github.com/user-attachments/assets/ce17cc07-249b-4d54-b40d-746206d5e0c4" />
+
 
 
 

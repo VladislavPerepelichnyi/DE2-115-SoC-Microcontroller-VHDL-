@@ -109,6 +109,11 @@ Comments can be inserted using `--` (as in VHDL).
 
 <img width="584" height="367" alt="image" src="https://github.com/user-attachments/assets/f1181c54-8ad5-432d-8a5a-d2b83849b518" />
 
+### Timep programming : 
+
+<img width="350" height="54" alt="image" src="https://github.com/user-attachments/assets/b9a5dea8-f103-4563-af3d-82683521d216" />
+
+
 ## Acknowledgments
 Developed by **Noam Alon** and **Vladislav Perepelichnyi**  
 Faculty of Electrical Engineering,  

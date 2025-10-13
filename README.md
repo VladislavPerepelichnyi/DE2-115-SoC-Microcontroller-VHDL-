@@ -42,7 +42,7 @@ The SoC consists of several main blocks:
 
 **UART structure :**
 
-<img width="985" height="650" alt="UART" src="https://github.com/user-attachments/assets/dc6e1665-0bc9-4890-a8cd-d5f5a2f42a67" />
+<img width="493" height="325" alt="UART" src="https://github.com/user-attachments/assets/dc6e1665-0bc9-4890-a8cd-d5f5a2f42a67" />
 
 
 **Loader structure :**
